@@ -24,7 +24,8 @@ class ContainerWidget extends StatelessWidget {
           padding: EdgeInsets.only(left: 10, top: 10),
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrrSeED_hGhTydZeXpT2AS7VAtSjG-bUWFkw&s'),
+              image: NetworkImage(
+                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrrSeED_hGhTydZeXpT2AS7VAtSjG-bUWFkw&s'),
               fit: BoxFit.cover,
             ),
           ),

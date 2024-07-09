@@ -22,7 +22,8 @@ class NewsContainer extends StatelessWidget {
                 height: 200.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrrSeED_hGhTydZeXpT2AS7VAtSjG-bUWFkw&s'),
+                    image: NetworkImage(
+                        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrrSeED_hGhTydZeXpT2AS7VAtSjG-bUWFkw&s'),
                     fit: BoxFit.cover,
                   ),
                   borderRadius: BorderRadius.circular(8.0),
@@ -36,10 +37,9 @@ class NewsContainer extends StatelessWidget {
               child: Text(
                 'Lorem Ipsum',
                 style: TextStyle(
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.orange
-                ),
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.orange),
                 textAlign: TextAlign.center,
               ),
             ),
